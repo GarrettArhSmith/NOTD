@@ -1,0 +1,58 @@
+h1 {
+  text-transform: uppercase;
+  color: #226E93;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-family: sans-serif;
+}
+
+h4 {
+  font-size: 25px;
+  color: #1D1E22;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-family: sans-serif;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.content {
+  display: inline-block;
+  width: 400px;
+  height: 350px;
+  padding: 30px;
+  outline: 4px solid #226E93;
+  margin: 10px;
+  vertical-align: top;
+  overflow-y: auto;
+}
+
+#submit {
+  margin-top: 20px;
+}
+
+#notd {
+  font-size: 72px;
+  color: #1D1E22;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-family: sans-serif;
+}
+
+#expression {
+  display: none;
+}
+
+#expressionArea {
+  min-width: 400px;
+  max-width: 400px;
+  height: auto;
+}
+
+#answers {
+  list-style-type: none;
+  font-size: 25px
+}

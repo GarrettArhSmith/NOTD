@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>NOTD</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="content">
+      <h1>Number of the Day</h1>
+      <div id="numberPicking">
+        <button type="button" id="numberGeneration" onclick="numberGeneration()">Generate a Random Number</button>
+        <h3>OR</h3>
+        <input type="text" id="input" placeholder="Type your own...">
+        <button type="button" id="submit" onclick="submit()">Submit Number</button>
+      </div>
+      <h1 id="notd"></h1>
+      <div id="expression">
+        <textarea id="expressionArea" placeholder="Write equivalent expression..."></textarea>
+        <button type="button" id="submitExpression" onclick="submitExpression()">Submit</button>
+        <h4 id="result"></h4>
+      </div>
+    </div>
+    <div class="content">
+      <ul id="answers">
+      </ul>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+
+  </body>
+</html>
